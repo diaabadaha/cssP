@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&family=Poppins&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
+header {
+  background-color: white;
+  box-shadow: 0px 1.64744px 8.2372px 0px rgba(0, 0, 0, 0.1);
+  position: sticky;
+  width: 100%;
+  top: 0;
+  z-index: 10;
+  padding: 20px 0px;
+}
+
+.container {
+  margin: auto;
+  width: calc(100% - 120px);
+}
+
+header .row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+header ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16.47px;
+}
+
+header ul li a {
+  color: #101928;
+  font-weight: 400;
+}
+
+header ul li .active {
+  font-weight: 700;
+}
+
+header .logo {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+header .logo img {
+  width: 30px;
+}
+
+header .buttons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+header .buttons a {
+  padding: 5px 20px;
+  border-radius: 10px;
+  font-family: "Inter", sans-serif;
+}
+
+header .buttons .login {
+  padding: 5px 20px 5px 28px;
+  color: #545be8;
+  width: 108.47px;
+  margin: auto;
+  border: 2px solid #545be8;
+}
+
+header .buttons .register {
+  color: #fff;
+  background-color: #545be8;
+  border: 2px solid #545be8;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
